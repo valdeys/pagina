@@ -22,6 +22,11 @@ flex-direction: row;
 }
 body{
     background-color: antiquewhite;
+    
+    width: 100px;
+    height: 100px;
+   
+    
 }
 .menu{
     background-color: red;
