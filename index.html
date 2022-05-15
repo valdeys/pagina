@@ -27,7 +27,7 @@
         <a href="localizacao.html" class="menu">Localização</a>
         </ul>
      </div>
- <section id="fotoshome"> 
+ <section id="flexbox"> 
     <div class="item-galeria">
         <img src="./imagens/01.png" class="img-galeria">
        
@@ -57,7 +57,7 @@
   </section> 
     <br>
     <h3>Contato</h3>
-    <form>
+    <form class="contato">
         <label for="nome-sobrenome"
         >Nome:</label>
         <input type="text" name="Nome">
@@ -74,19 +74,11 @@
     </form>
 
 
-<footer>
-    <div class="feedback" >
-      <div class="email ">
-        <section class="Noticias" data-tray-tst="noticias-box">
-          <h2 class="titulo">Gostou da loja?</h2>
-          <span>Cadastre-se e receba nossas novidades e promoções em seu email</span>
-          <form action="/mvc/store/newsletter/?loja=779654" method="post" name="newsletter" data-tray-tst="newsletter_form">
-            <input name="email" type="email" placeholder="E-mail" data-tray-tst="newsletter_email"><button class="news-btn" data-tray-tst="newsletter_cadastrar">
-              Enviar</button>
-            </form>
-          </section>
-        </div>
-      </div>
+<footer class="newsletter" data-tray-tst="newsletter_box"> <h2 class="title">Gostou da loja?</h2>
+      <span>Cadastre-se e receba nossas novidades e promoções em seu email</span>
+    <form action="/mvc/store/newsletter/?loja=779654" method="post" name="newsletter" data-tray-tst="newsletter_form"><input name="email" type="email" placeholder="E-mail" data-tray-tst="newsletter_email"><button class="news-btn" data-tray-tst="newsletter_cadastrar">Enviar</button>
+    </form>
+
 
   
         <textarea class="form-control" placeholder="Deixe Seu Comentario" id="Comentario">
