@@ -65,11 +65,8 @@ figcaption{
     font-size: large;
 }
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing:border-box ;
-}
+
+
 .container-galeria{
     display:grid;
     grid-template-columns: repeat(6,1fr);
@@ -96,6 +93,12 @@ figcaption{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-a{
-    padding: auto;
+#fotoshome{
+    margin: 100px;
+    padding: 100px;
+    display: block;
+    border: 10px;
+    width: 150px;
+    height: 150px;
+    border: black;
 }
