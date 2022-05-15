@@ -22,9 +22,7 @@ flex-direction: row;
 }
 body{
     background-color: antiquewhite;
-    
-    width: 100px;
-    height: 100px;
+   
    
     
 }
@@ -100,4 +98,7 @@ figcaption{
     font-size: 16pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+a{
+    padding: auto;
 }
