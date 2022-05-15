@@ -2,19 +2,11 @@
 h1{
     background-color: red;
     color: black;
-    border: black;
     font-family: "Open Sans",sans-serif black;
 
-   
  
  }  
 
-.flexbox{ 
-display:flex;
-flex-direction: row;
-
-
-}
 body{
    background-color: antiquewhite;
    margin: 10px;
@@ -26,18 +18,16 @@ body{
 .menu{
     background-color: red;
     color: black;
-    margin: opx;
-    width: opx;
-    height: opx;
+    margin: 10px;
     border: black;
     font-family: "Open Sans",sans-serif black;
     font-size: 1.1rem;
     font-weight: 600;
-    padding: 10px 0;
+    padding: 10px;
 }
+/*
 .img{
     background-image: repeating-linear-gradient();
-    flex-direction: column;
     grid-gap: 10px;
 }
 
@@ -51,8 +41,8 @@ body{
     }
         
 #fotos ul li{ 
-    margin-right: 4px;
-    cursor: pointer;
+margin-right: 4px;
+cursor:copy;
 width: 100px;
 height: 100px;
 background-color: #ccc;
@@ -71,15 +61,19 @@ figcaption{
     display:grid;
     grid-template-columns: repeat(6,1fr);
     grid-auto-rows: 100px;
+    grid-template-areas:
 
 }
+*/
 .item-galeria{
-    position: relative;
+    position: inherit;
 }
 .item-galeria .img-galeria{
     width: 100px;
     height: 100px;
+    /*
     object-fit: cover;
+   */
 }
 .item-galeria .title-galeria{
     position: absolute;
@@ -93,12 +87,12 @@ figcaption{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 #fotoshome{
-    margin: 100px;
-    padding: 100px;
-    display: block;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
     border: 10px;
-    width: 150px;
-    height: 150px;
     border: black;
+
 }
